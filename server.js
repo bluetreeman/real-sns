@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
-const userRoute = require("./routers/users");
-const authRoute = require("./routers/auth");
-const postRoute = require("./routers/posts");
+const userRoute = require("./routes/users");
+const authRoute = require("./routes/auth");
+const postRoute = require("./routes/posts");
 const PORT = 3000;
 
 // ミドルウェア
